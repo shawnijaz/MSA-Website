@@ -1,0 +1,39 @@
+.donation_outline
+{
+  width: 500px;
+  border: 15px solid grey;
+  padding: 50px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+.button
+{
+  background-color: lightgrey;
+  border: solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#donation_link
+{
+  background: lightgrey;
+  color: black;
+  font-family: arial;
+  width: 350px;
+}
+
+#donation_link:hover
+{
+  background-color: black;
+  transition: 0.7s;
+  color: gold;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home: UHD MSA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/css-home/Home-Slideshow.css">
+    <link rel="stylesheet" href="../css/css-home/Home-MSA_Updates.css">
+
+  </head>
+
+  <body>
+
+    <nav>
+
+      <div class="nav">
+
+        <ul>
+          <!--<a href="../html/home.html"><img id="logo" src=../imageFiles/MSA_LOGO.png /></a> -->
+
+          <li><a href="../html/home.html">Home Logo</a></li>
+
+          <li><a href="../html/home.html">Home</a></li>
+
+          <li><a href="../html/about.html">About</a>
+            <ul>
+              <li><a href="../html/about.html">About</a></li>
+              <li><a href="../html/officers.html">Officers</a></li>
+            </ul>
+          </li>
+
+          <li><a href="../html/membership.html">Membership</a>
+            <ul>
+              <li><a href="../html/membership.html">Membership</a></li>
+              <li><a href="../html/donations.html">Donations</a></li>
+            </ul>
+          </li>
+
+          <li><a href="../html/prayerTiming.html">Prayer Timing</a></li>
+          <li><a href="../html/calendar.html">Calendar</a></li>
+          <li><a href="../html/gallery.html">Gallery</a></li>
+
+        </ul>
+      </div>
+
+    </nav>
+
+    <div class="header">
+      <h1>Home</h1>
+    </div>
+
+    <br><br>
+
+    <section>
+
+      <!--image slider start-->
+      <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="../imageFiles/img1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="../imageFiles/img2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="../imageFiles/img3.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="../imageFiles/UHD.jpg" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+
+      <script src="../javascript/home.js"></script> <!-- Javacript portion for slideshow-container -->
+
+      <br><br>
+
+      <h2>Upcoming Events</h2>
+
+      <div class="row">
+        <div class="column">
+          <a href="../Flyers/Weekly Halaqa.jpg" target="_blank"><img id="events" src="../Flyers/Weekly Halaqa.jpg" alt="WeeklyHalaqa"></a>
+        </div>
+        <div class="column">
+          <a href="../Flyers/Quran Session 2.png" target="_blank"><img id="events" src="../Flyers/Quran Session 2.png" alt="QuranSessionPT2"></a>
+        </div>
+        <div class="column">
+          <a href="../Flyers/Life of Prophet Muhammad (SAW) pt1.png" target="_blank"><img id="events" src="../Flyers/Life of Prophet Muhammad (SAW) pt1.png" alt=""></a>
+        </div>
+      </div>
+
+      <h2>News</h2>
+
+      <div class="DivButton">
+        <a href="#"><button class="NewsButton">News</button></a>
+      </div>
+
+    </section>
+
+    <br><br>
+
+    <footer>
+
+      <div class="footer">
+        <div class="row-footer">
+
+          <div class="column-footer">
+            <h2 id="footerID">Follow us:</h2>
+            <a id="link-footer" href="https://www.facebook.com/UHDMSA" target="_blank">Facebook</a><br><br>
+            <a id="link-footer" href="https://www.instagram.com/msa_uhd/" target="_blank">Instagram</a><br><br>
+            <a id="link-footer" href="https://www.linkedin.com/in/msa-uhd-600aa41ab/" target="_blank">Linked In</a><br><br>
+            <a id="link-footer" href="https://groupme.com/join_group/57793099/QxdyQ0cu" target="_blank">Groupme</a><br><br>
+          </div>
+
+          <div class="column-footer">
+            <h2 id="footerID">Contact us:</h2>
+
+            <div class="contact-form">
+              <form id="contact-form" action="test.php" method="post">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                <br>
+                <input type="text" name="email" class="form-control" placeholder="Your Email" required>
+                <br>
+
+                <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+
+                  <input type="submit" class="form-control submit" value="Submit">
+
+              </form>
+
+            </div>
+
+            <!--Reference for Contact us: https://www.youtube.com/watch?v=Iv93yjdvkWI-->
+
+          </div>
+
+          <div class="column-footer">
+            <h2 id="footerID">Resourses:</h2>
+            <a id="link-footer" href="https://isgh.org/" target="_blank">Islamic Society of Greater Houston</a><br><br>
+            <a id="link-footer" href="https://islamicdawahcenter.org/" target="_blank">Islamic Da'wah Center</a><br><br>
+            <a id="link-footer" href="http://mislamiah.com/" target="_blank">Madrasah Islmaiah</a><br><br>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="CopyRights">
+        <strong>Copyright: UHD MSA</strong>
+      </div>
+
+    </footer>
+
+  </body>
+</html>

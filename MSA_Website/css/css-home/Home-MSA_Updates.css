@@ -1,0 +1,80 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.column
+{
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column2
+{
+  float: left;
+  width: 33%;
+  padding: 10px;
+  background-color: #ccc;
+}
+
+/* Clear floats after the columns */
+.row2:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2
+{
+  text-align: center;
+}
+
+img
+{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 80%;
+}
+
+#events:hover
+{
+  transition: 2.0s;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.NewsButton
+{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  cursor: pointer;
+  width: 100%;
+  font-family: arial;
+}
+
+.DivButton
+{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}

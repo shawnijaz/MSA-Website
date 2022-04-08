@@ -1,0 +1,12 @@
+.galleryClass
+{
+  overflow: hidden;
+}
+
+img
+{
+  width: 24%;
+  float: left;
+  margin: 5px;
+  height: 400px;
+}

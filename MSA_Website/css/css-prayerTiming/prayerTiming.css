@@ -1,0 +1,88 @@
+*
+{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1
+{
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.column2
+{
+  float: left;
+  width: 800px;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table
+{
+  border-collapse: collapse;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td, th
+{
+  border: 1px solid black;
+  text-align: center;
+  font-family: arial;
+  padding: 8px;
+}
+
+.navBar
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: lightgrey;
+}
+
+#link a
+{
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: arial;
+}
+
+#link a:hover
+{
+  background-color: black;
+  color: gold;
+  transition: 0.7s;
+}
+
+#topBar
+{
+  background-color: green;
+}
+
+#evenSet
+{
+  background-color: lightgrey;
+}
+
+#DayLightSavings
+{
+  background-color: lightgreen;
+}
+
+h1
+{
+  text-align: center;
+}

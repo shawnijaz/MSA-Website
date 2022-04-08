@@ -1,0 +1,188 @@
+*
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  margin: 0;
+  font-family: arial;
+
+}
+
+/*Navbar below*************************************************************************/
+
+.nav
+{
+  background: black;
+  height: 80px;
+  font-family: arial;
+}
+
+ul
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+
+ul li
+{
+  float: left;
+  margin-top: 20px;
+}
+
+ul li a
+{
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+a:hover
+{
+  background: black;
+  color: gold;
+}
+
+ul li ul
+{
+  background: black;
+}
+
+ul li ul li
+{
+  float: none;
+}
+
+ul li ul
+{
+  display: none;
+}
+
+ul li:hover ul
+{
+  display: block;
+}
+
+@media screen and (max-width: 400px)
+{
+  .nav a
+  {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*
+#logo
+{
+  content: url("../imageFiles/MSA_LOGO.png");
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+*/
+
+li
+{
+  display: inline;
+}
+
+/*Header below*************************************************************************/
+
+.header
+{
+  padding: 1px;
+  text-align: center;
+  background: grey;
+}
+
+/*Footer below*************************************************************************/
+
+#footerID
+{
+  text-align: left;
+}
+
+#link-footer
+{
+  color: white;
+  text-decoration: none;
+}
+
+#link-footer:hover
+{
+  color: gold;
+  background: none;
+}
+
+.column-footer
+{
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row-footer:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer
+{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  background-color: #262626;
+  color: white;
+  text-align: left;
+  padding: 30px;
+}
+
+.form-control
+{
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+input
+{
+  height: 45px;
+}
+
+form .submit
+{
+  background: white;
+  border-color: transparent;
+  color: black;
+  font-weight: bold;
+  width: 100px;
+}
+
+form .submit:hover
+{
+  background-color: white;
+  cursor: pointer;
+}
+
+.CopyRights
+{
+  background-color: #262626;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 20px;
+}

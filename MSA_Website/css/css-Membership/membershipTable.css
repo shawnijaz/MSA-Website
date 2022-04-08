@@ -1,0 +1,50 @@
+table
+{
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: arial;
+}
+
+td, th
+{
+  border: 1px solid lightgrey;
+  padding: 8px;
+}
+
+#TheBenefits
+{
+  text-align: center;
+}
+
+.button
+{
+  background-color: lightgrey;
+  border: solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.membershipInfo
+{
+  padding: 30px;
+}
+
+#select
+{
+  background: lightgrey;
+  color: black;
+}
+
+#select:hover
+{
+  background-color: black;
+  transition: 0.7s;
+  color: gold;
+}
